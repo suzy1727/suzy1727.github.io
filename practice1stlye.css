@@ -1,0 +1,67 @@
+
+.Class1 { 
+color: hotpink;
+text-align:left;
+font: Arial;
+} 
+
+.Class2 { 
+    color: pink;
+    text-align:left;
+    font: Courier;
+   
+    } 
+
+.Class3 { 
+        color: lightpink;
+        text-align:left;
+        font: Corsiva ;
+    
+        } 
+        
+.button { 
+    background-color: lightgray;
+    border:gray ;
+    color: black;
+    text-align:left;
+    font: Courier;
+    font-size: 8px;
+    padding: 15px 32px; 
+    border: 2px solid black;
+       } 
+
+    .Class4 { 
+        float: left;
+        border: 2px solid black;
+        width: 33%;
+        border-color:purple ;
+        color: black;
+        text-align:center;
+        font: Courier ;
+        font-size:24px; 
+        display: inline-block;
+        } 
+
+    .Class5 { 
+            color: blue;
+                       } 
+    .Class6 {
+        background-color: gray;
+        width: 100%;
+
+    } 
+
+.Class7 {
+    text-align: center;
+}
+.scroll {
+    background-color: white;
+    width: 600px;
+    height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    padding: 20px; 
+}    
+
+                  
