@@ -1,0 +1,120 @@
+/* .nav_image1 {
+    float: left;
+    text-align: left;
+    background-color: yellow;
+} */
+
+.nav_image2 {
+    float: right;
+    text-align: right;
+    background-color: violet;
+}
+
+.pinkbox {
+    background-color: pink;
+    border-color: black;
+    border: 12px;
+    padding: 2%;
+    height: 600px;
+    border-style: double;
+
+}
+
+.nav_bar
+{
+    border-bottom: 5px;
+    border-color: black;
+    border-bottom-color: red;
+
+}
+
+
+
+.activityrow {
+    background-color: yellow;
+    height: 42% margin-bottom 2%;
+    border: 12px hotpink;
+}
+
+.imgbox {
+    background-color: pink width 30%;
+    height: 100%;
+    float: left;
+    margin: auto 2%
+}
+
+.activityrow2 {
+    background-color: pink;
+}
+
+.infobox {
+    background-color: rgb(128, 186, 240);
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.image1 {
+    float: left;
+    border-style: solid;
+    border-color: purple;
+}
+
+.image2 {
+    float: right;
+text-align: left;
+border-style: solid;
+border-color: purple;
+}
+.mainbox {
+width:50%;
+height:200px;
+margin:auto;
+
+}
+.sub1 {
+    
+float:left;
+width:35%;
+box-sizing:border-box;
+font: size 2vw;
+padding-right:5%;
+margin: 3%;
+}
+.sub2 {
+    text-decoration-color: aquamarine;
+    box-sizing: border-box; 
+    position: absolute;
+    top: 280px;
+    left: 815px;
+    width: 200px;
+    height: 100px;
+   
+        
+}
+.sub3 {
+
+width:35%;
+box-sizing:border-box;
+font: size 2vw;
+padding: right 5%;
+margin: 3%;
+float: right;
+}
+.box{
+    border-color: black;
+    border: 12px;
+    padding: 2%;
+    height: 250px;
+    border-style: double;
+padding-bottom: 10%;
+}
+.box2 {
+    border-color: black;
+    border: 5px;
+    padding: 2%;
+    height: 50px;
+    width: 50px;
+    border-style: double;
+padding-bottom: 10%;
+}
