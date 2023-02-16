@@ -1,0 +1,36 @@
+.background {
+    background-color: rgb(145, 255, 0);
+}
+
+
+.animbox {
+    height:400px;
+    background-color: aqua;
+    position: relative;
+    background-image:url(nyc.jpg);
+    background-size: 100%100%;
+    
+    
+    }
+    
+    .animbox >img{
+    width: 100px;
+    border-radius: 30px;
+    position: absolute;
+    left: 10%;
+    animation-name: birdfly;
+    animation-duration: 3s  ;
+    
+    }
+    
+
+
+    @keyframes birdfly {
+    0% {}
+    50%{   left:50% ;bottom : 10%}
+    100%{left:90% ;bottom:60%}
+    
+    
+    }
+
+
