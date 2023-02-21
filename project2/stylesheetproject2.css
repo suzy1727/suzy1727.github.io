@@ -1,0 +1,392 @@
+.btn1 
+{
+    background-color: blanchedalmond;
+    text-decoration: none;
+    border: 3px solid pink;
+    padding: 24px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+    ;
+    
+}
+.btn2{
+    background-color: blanchedalmond;
+    text-decoration: none;
+    border: 3px solid pink;
+    padding: 24px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+
+.muranowindow{
+      /* background-color: blueviolet;
+   opacity: 0.5; */
+   /*position:fixed;*/
+   left:0;
+   right: 0;
+   top:0;
+   bottom:0;
+   height: 100%;
+   width: 100%;
+   
+   opacity: 0;
+   /* display: none; */
+   pointer-events: none;
+}
+
+.muranowindow:target{
+    /* display: all;  */
+    opacity: 1;
+    pointer-events: all;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+
+
+.msgbox{
+   
+   border-top-color: blue;
+   width:50%;
+   margin: auto;
+   margin-top:10%;
+   text-align: center;
+   /* pointer-events: none; */
+
+
+}
+
+.msgbox > a 
+{font-size: 60px;}
+
+
+.herobox{
+    height:500px;
+    background-color: lightpink;
+    }
+
+.herobox> div {
+        height:400px;
+        width: 30%;
+        float: left;
+         margin-top: 5px;
+        text-align: center;
+    }
+    .productbox1{
+        height:400px;
+       height:300px;
+        width: 80%;
+        float: left;
+         margin-top: 5px;
+        text-align: center;
+    
+    
+    }
+     
+   
+
+
+
+    .productbox1> img {
+            height:300px;
+            width: 50%;
+            margin-top: 5x;
+            text-align: center;
+        }
+
+        .productbox2{
+            height:400px;
+           height:300px;
+            width: 80%;
+            float: left;
+             margin-top: 5px;
+            text-align: center;
+                    
+        
+        }
+        
+        .productbox2> img {
+                height:300px;
+                width: 50%;
+                margin-top: 5x;
+                text-align: center;
+            }
+            .productbox3{
+                height:400px;
+               height:300px;
+                width: 80%;
+                float: left;
+                 margin-top: 5px;
+                text-align: center;
+              
+            }
+        .productbox4> img {
+            height:300px;
+            width: 50%;
+            margin-top: 5x;
+            text-align: center;
+        }
+        .productbox4{
+            height:400px;
+           height:300px;
+            width: 80%;
+            float: left;
+             margin-top: 5px;
+            text-align: center;
+
+        }
+            .productbox5> img {
+                height:300px;
+                width: 50%;
+                margin-top: 5x;
+                text-align: center;
+            }
+            .productbox5{
+                height:400px;
+               height:300px;
+                width: 80%;
+                float: left;
+                 margin-top: 5px;
+                text-align: center;
+            
+            }
+            .productbox6> img {
+                height:300px;
+                width: 50%;
+                margin-top: 5x;
+                text-align: center;
+            }
+            .productbox6{
+                height:400px;
+               height:300px;
+                width: 80%;
+                float: left;
+                 margin-top: 5px;
+                text-align: center;
+            }
+            .productbox3> img {
+                height:300px;
+                width: 50%;
+                    margin-top: 5x;
+                    text-align: center;
+                }
+                .herobox> img {
+                    height:300px;
+                    width: 50%;
+                        margin-top: 5x;
+                        float: left;
+                    }
+                    .introbox {
+                        border-style: double;
+                         
+                         margin-bottom: 50px;
+                         margin-left: 800px;
+                         margin-right: 50px;
+                         float: right;
+
+                    }
+
+                    .herobox1{
+                        height: 800px;
+                        width: 100%;
+                        background-color: lightblue;
+                        background-image:url(images/intro_img2.jpg);
+                        background-size: 100% 100%;
+                       position: relative;
+                        }
+                    
+                    .herobox1 > div {
+                            border-style: double;
+                            border-color: aliceblue;
+                            float: left;
+                             margin-top: 15%;
+                            text-align: center;
+                        margin-right: 40%;
+                        margin-left: 10%;
+                                background-color: gray;
+                                 width: 400px;
+                                height: 150px;
+                    }
+
+/*--Animation----*/
+                    .animbox {
+                        height:500px;
+                        background-color: lightyellow;
+                        position: relative;
+                        background-size: 80%80%;
+                        
+                        
+                        }
+                        
+                        .animbox >img{
+
+                        margin-top: 100px ;
+                        width: 300px;
+                        border-radius: 10px;
+                        position: absolute;
+                        left: 5%;
+                        /*animation-name: logo;*/
+                        /*animation-duration: 2s  ;*/
+                      border-style: solid;
+                      animation: logo 2s infinite;
+                        
+                        }
+                        @keyframes logo {
+                            0% {transform: scale(1,1);}
+                            50%{transform: scale(1.5, 1.5);}
+                            100%{transform: scale(1,1);}
+                        }
+                        .animbox1 {
+                            height:500px;
+                            background-color: lightyellow;
+                            position: relative;
+                            background-size: 80%80%;
+                            
+                            
+                            }
+                            
+                            .animbox1 >div{
+    
+                            margin-top: 100px ;
+                            width: 300px;
+                            border-radius: 10px;
+                            position: absolute;
+                            left: 5%;
+                            /*animation-name: logo;*/
+                            /*animation-duration: 2s  ;*/
+                          border-style: solid;
+                          animation: logo1 2s infinite;
+                            
+                            }
+                            @keyframes logo1 {
+                                0% {transform: scale(1,1);}
+                                50%{transform: scale(1.5, 1.5);}
+                                100%{transform: scale(1,1);}
+                            }
+                            .animbox2 {
+                                height:500px;
+                                background-color: lightyellow;
+                                position: relative;
+                                background-size: 80%80%;
+                            }
+
+
+
+
+                            .animbox2 >div{
+    
+                                margin-top: 100px ;
+                                width: 300px;
+                                border-radius: 10px;
+                                position: absolute;
+                                left: 5%;
+                                /*animation-name: logo;*/
+                                /*animation-duration: 2s  ;*/
+                              border-style: solid;
+                              animation: logo2 2s infinite;
+                                
+                                }
+                                @keyframes logo2 {
+                                    0% {transform: scale(1,1);}
+                                    50%{transform: scale(1.5, 1.5);}
+                                    100%{transform: scale(1,1);}
+                                }
+
+                            
+
+
+
+
+
+
+
+
+/*--Slide show----*/    
+     
+.stage {
+    border:2px solid goldenrod;
+    width: 100%;
+    height:125px;
+    overflow: hidden;    
+    }
+    .slidewrapper {
+    width:400%;
+    height: 100%;
+    animation: slideshow 30s infinite;
+        }
+    
+    @keyframes slideshow {
+    0% {margin-left:0%;}
+    25%{ margin-left:-200%;}
+    50% { margin-left:-300%;}
+    100% { margin-left:-400%;}
+    
+    }
+    .stage div div {
+    width:25%;
+    height: 100%;
+    float:left;
+    text-align: center;
+    
+    }
+    
+    
+    .s1 {
+        background-color:purple;
+        background-image:url(images/valentinesday.png)  ; 
+   
+   
+        
+        
+    }
+    .s2 {
+        background-color:purple;
+        font-size: 25px;
+        font-style: italic;
+        color: white;
+        
+    }
+    .s3 {
+        background-color: lightpink;
+        font-size: 35px;
+        font-style: italic;
+        color: goldenrod;
+    }           
+         
+.herobox2{
+    height:500px;
+   
+    }
+
+.herobox2> div {
+        height: 500px;
+        width: 30%;
+        float: left;
+         margin-top: 5px;
+        text-align: center;               
+}
+    /*Gift Boxes*/
+
+.herobox4{
+    height: 800px;
+    width: 400px;
+    background-color: lightyellow;
+   
+    }
+
+.herobo4> div {
+        height: 800px;
+        width: 30%;
+        float: left;
+         margin-top: 5px;
+        text-align: center;               
+}
+.herobo4> img {
+    height: 800x;
+    width: 50%;
+    margin-top: 5px;
+  float: left;             
+}
+
