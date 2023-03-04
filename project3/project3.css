@@ -1,0 +1,26 @@
+body {
+background-color: aqua;
+
+}
+.herobox{
+    height:800px;
+    width: 800px;
+    background-color: lightpink;
+    margin-left: 20%;
+    }
+
+.herobox> div {
+        height:400px;
+        width: 30%;
+        float: right;
+         margin-top: 5px;
+        text-align: center;
+}
+.winbox {
+    height:100px;
+    width: 1000px;
+    background-color: lightpink;
+    margin-left: 20%;
+
+
+}
