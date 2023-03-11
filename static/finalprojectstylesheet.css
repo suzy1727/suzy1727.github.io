@@ -1,0 +1,118 @@
+
+.pinkbox {
+    background-color: pink;
+    border-color: black;
+    border: 12px;
+    padding: 2%;
+    height: 600px;
+    border-style: double;
+
+}
+.image1 {
+    float: left;
+    border-style: solid;
+    border-color: purple;
+}
+
+.image2 {
+    float: right;
+text-align: left;
+border-style: solid;
+border-color: purple;
+}
+
+.btn1 {
+
+    background-color: blanchedalmond;
+    text-decoration: none;
+    border: 3px solid pink;
+    padding: 24px;
+    font-size: 30px;
+    border-radius: 10px;
+    
+}
+
+.muranowindow{
+    /* background-color: blueviolet;
+ opacity: 0.5; */
+ /*position:fixed;*/
+ left:0;
+ right: 0;
+ top:0;
+ bottom:0;
+ height: 50px;
+ width: 50px;
+ border-style: double;
+ border-color: black;
+ border: 12px;
+ 
+ opacity: 0;
+ /* display: none; */
+ pointer-events: none;
+}
+
+.muranowindow:target{
+  /* display: all;  */
+  opacity: 1;
+  pointer-events: all;
+  max-height: fit-content;
+  max-width: fit-content;
+}
+
+
+
+.msgbox{
+ 
+ border-top-color: blue;
+ height: 50px;
+ width:50px;
+ margin: auto;
+ margin-top:10%;
+ text-align: center;
+ /* pointer-events: none; */
+
+
+}
+
+.msgbox > a 
+{font-size: 60px;}
+
+
+.herobox{
+  height:500px;
+  background-color: lightpink;
+  border: 12px;
+  border-style: double;
+  border-color: black;
+
+  }
+
+.herobox> div {
+      height:400px;
+      width: 80%;
+      float: center;
+       margin-top: 5px;
+      text-align: center;
+  }
+  .productbox1{
+      height:400px;
+     height:300px;
+      width: 100%;
+      float: center;
+       margin-top: 5px;
+       margin-right: auto;
+       margin-left: 150px;
+      text-align: center;
+  
+  
+  }
+   
+
+
+
+  .productbox1> img {
+          height:300px;
+          width: 90%;
+          margin-top: 5x;
+          text-align: center;
+      }
